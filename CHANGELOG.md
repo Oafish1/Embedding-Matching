@@ -1,4 +1,8 @@
-# 1.2.0 (IN PROGRESS)
+# 1.2.1
+- Add data imputation for survey results
+- Reruns
+
+# 1.2.0
 - Add survey result analysis
 - Notebook reruns
 
