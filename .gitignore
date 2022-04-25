@@ -1,3 +1,9 @@
 # Compiled
-**/model-checkpoint.*
-*.pyc
+__*
+.ipynb_*
+
+# Env
+env/
+
+# Data
+data/

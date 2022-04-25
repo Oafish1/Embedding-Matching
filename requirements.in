@@ -3,4 +3,5 @@ networkx
 numpy
 scipy
 seaborn
+sklearn
 torch

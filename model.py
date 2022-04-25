@@ -12,7 +12,7 @@ class EmbeddingGenerationModel(nn.Module):
         self.mentors = nn.Embedding(num_mentors, dim)
 
     def forward(self, e_id, o_id):
-        """Forward pass for the model"""
+        """Cosine similarity between mentee ``e_id`` and mentor ``o_id``"""
         e_vec = self.mentees(e_id)
         o_vec = self.mentors(o_id)
         e_norm = torch.norm(e_vec, dim=1)
